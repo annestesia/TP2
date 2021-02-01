@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap'); 
+* {
+    box-sizing: border-box;
+    }
+*{max-width: 900px;
+margin:0 auto;
+display: block;
+align-items: center;}
+
+
+.icono { align: center;
+    padding: 0auto;
+    margin: 10px auto;
+    width: 200px;
+    height: 200px;}
+
+h1 { font-family: 'Source Sans Pro', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin: 10px auto;
+    padding: 10px;
+    width: 300px;
+    align: center;}
+
+.email {font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    label: align: center;
+    border-style: none;
+  
+   
+  
+}
+
+.email_input {font-family: 'Source Sans Pro', sans-serif;
+    border-color: rgb(151, 151, 151); 
+    border-radius: 10px;
+    width: 230px;
+    height:40px;
+    border: circle;
+    font-size: 16px;
+    font-weight: 200;
+    padding: 10px ;  
+    border-style: solid;
+}
+
+.ENTRAR_BOTTOM { font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    background-color :#2a078b;
+    display: block;
+    width: 230px;
+    height: 40px;
+    padding: 5px  5px;
+    margin: 20px auto;
+    border-radius: 20px;
+    color: #ffffff;
+    align: center;
+    text-align: center;
+    border-style: none;
+  }
+
+  .login-forgot-pass { font-family: 'Source Sans Pro', sans-serif;
+    border: 2px  #d3dae9;
+    color: darken(#d3dae9, 20%);
+     margin: 20px auto;
+    border-bottom: 1px solid white;
+    text-decoration: none;
+    bottom: 0;
+     display: block;
+    font-size: 75%;
+    opacity: 0.6;
+    padding: 5px  5px;
+    text-align: center;
+    width: 200px;
+    height: 20px;
+    border-radius: 20px; }
+
+        .body,html { 
+            height: 100vh;
+            width: 50%;
+            background: 
+              /* top, transparent red */ 
+              linear-gradient(0deg,
+                rgba(107, 151, 222, 0.85)20%, 
+                rgba(106, 112, 228, 0.65)50%),
+                url('https://static.pexels.com/photos/21261/pexels-photo.jpg') repeat center;
+                background-size: cover;
+              }
